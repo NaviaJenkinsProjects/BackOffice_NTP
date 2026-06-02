@@ -61,28 +61,3 @@ And User Open Arrow Dropdown
 And User click Myinfo and View Data
 
 
-Scenario: User Check Statements and Reports Share Margin
-When User mouse over Dashboard
-When User Click Statements and Reports
-And User Navigate to Backoffice and Click Activity
-And User Open Arrow Dropdown
-And User Open Dropdown and Click Colletaral
-And User click View and Verify the Margin Stock Data
-
-
-Scenario: User Check Statements and Check DP Trans
-When User mouse over Dashboard
-When User Click Statements and Reports
-And User Navigate to Backoffice and Click Activity
-And User Open Arrow Dropdown
-And User Open Dropdown and Click DP Trans
-And User click View and Verify the New DP Trans
-
-
-    #
-
-#
-#Scenario: User Check and Verify Basket
-      #And Navigate to home page
-      #When User mouse over Dashboard
-      #And  User Click Basket 
